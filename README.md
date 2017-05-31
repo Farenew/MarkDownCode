@@ -6,7 +6,7 @@ Some useful pieces of code.
 ---
 
 
-### 1.随机名字产生器(Random Chinese name generator)
+### 1. 随机名字产生器(Random Chinese name generator)
 
 通过爬取附有常用名字的一个博客，以及wiki的百家姓，建立一个姓与名的list，然后通过随机数随机选取内容，产生名字
 

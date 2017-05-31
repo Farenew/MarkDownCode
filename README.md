@@ -4,7 +4,6 @@ Some useful pieces of code.
 ## Python 部分(Python Part)
 
 ---
----
 
 
 ### 1.随机名字产生器(Random Chinese name generator)

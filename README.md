@@ -14,8 +14,6 @@ Some useful pieces of code.
 
 By crawling names from blog and wikipedia, we obtain lists about first name and last name. Using random numbers to choose from lists built, we can generate some typical Chinese names.
 
----
-
 ### 2. 格式化随机数(format randint())
 
 一个极其简单的demo演示如何格式化随机数字
@@ -24,4 +22,3 @@ By crawling names from blog and wikipedia, we obtain lists about first name and 
 
 A very simple demo about how to format random numbers from random.randint() method
 
----

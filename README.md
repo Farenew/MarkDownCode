@@ -33,7 +33,7 @@ A very simple demo about how to format random numbers from random.randint() meth
 
 ### 1. 关于Atom下markdown-themeable-pdf格式的文件
 
-[random_format.py](./Others/readme.md)
+[markdown-themeable-pdf](./Others/readme.md)
 
 ---
 

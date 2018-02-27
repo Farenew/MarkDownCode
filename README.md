@@ -7,7 +7,7 @@ Some useful pieces of code.
 
 ### 1. 随机名字产生器(Random Chinese name generator)
 
-[name.py](./Python/1. name.py)
+[name.py](https://github.com/ForenewHan/MarkDownCode/blob/master/Python/name.py)
 
 ---
 
@@ -19,7 +19,7 @@ By crawling names from blog and wikipedia, we obtain lists about first name and 
 
 ### 2. 格式化随机数(format randint())
 
-[random_format.py](./Python/2. random_format.py)
+[random_format.py](https://github.com/ForenewHan/MarkDownCode/blob/master/Python/random_format.py)
 
 ---
 

@@ -29,6 +29,18 @@ By crawling names from blog and wikipedia, we obtain lists about first name and 
 
 A very simple demo about how to format random numbers from random.randint() method
 
+### 3. 微信自动回复(wechat auto respond)
+
+[wechat_respond.py](https://github.com/ForenewHan/MarkDownCode/blob/master/Python/wechat_respond.py)
+
+---
+
+通过itchat连接微信小冰来做微信的自动回复
+
+---
+
+A very simple demo about how to format random numbers from random.randint() method
+
 ## 其他(others)
 
 ### 1. 关于Atom下markdown-themeable-pdf格式的文件

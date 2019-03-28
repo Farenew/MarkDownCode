@@ -9,7 +9,6 @@ Some useful pieces of code.
 
 [name.py](https://github.com/ForenewHan/MarkDownCode/blob/master/Python/name.py)
 
----
 
 通过爬取附有常用名字的一个博客，以及wiki的百家姓，建立一个姓与名的list，然后通过随机数随机选取内容，产生名字
 
@@ -21,7 +20,6 @@ By crawling names from blog and wikipedia, we obtain lists about first name and 
 
 [random_format.py](https://github.com/ForenewHan/MarkDownCode/blob/master/Python/random_format.py)
 
----
 
 一个极其简单的demo演示如何格式化随机数字
 
@@ -33,13 +31,33 @@ A very simple demo about how to format random numbers from random.randint() meth
 
 [wechat_respond.py](https://github.com/ForenewHan/MarkDownCode/blob/master/Python/wechat_respond.py)
 
----
 
 通过itchat连接微信小冰来做微信的自动回复
+
+2019-3-28更新:
+
+    重新上传了代码, 可以通过回复88xiaoice来自动关闭小冰.
 
 ---
 
 A very simple demo about how to format random numbers from random.randint() method
+
+### 4. 帮别人做的几道华为面试题(some code wrote for others)
+
+题在代码里介绍
+
+- 切水果问题
+
+    [cut_fruit.py](https://github.com/ForenewHan/MarkDownCode/blob/master/Python/cut_fruit.py)
+
+- 最短路径
+
+    [minimum_path.py](https://github.com/ForenewHan/MarkDownCode/blob/master/Python/minimum_path.py)
+
+- 大端小端
+
+    [bigEndian_littleEndian.py](https://github.com/ForenewHan/MarkDownCode/blob/master/Python/bigEndian_littleEndian.py)
+
 
 ## 其他(others)
 
@@ -47,7 +65,6 @@ A very simple demo about how to format random numbers from random.randint() meth
 
 [markdown-themeable-pdf](./Others/readme.md)
 
----
 
 自定义的markdown-themeable-pdf输出格式
 

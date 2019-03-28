@@ -1,21 +1,21 @@
-# atomÖĞ×Ô¼ºÊ¹ÓÃµÄÒ»Ğ©¸ñÊ½
+# atomä¸­è‡ªå·±ä½¿ç”¨çš„ä¸€äº›æ ¼å¼
 
 ---
 
-Ê×ÏÈ°²×°YaHei.Consolas×ÖÌå£¬ÖĞÎÄÊ¹ÓÃÎ¢ÈíÑÅºÚ£¬Ó¢ÎÄÊ¹ÓÃconsolas¡£ÔÚÒ»Ğ©×ÖÌåÉèÖÃÀï£¬¶¼»áÊ¹ÓÃÕâ¸ö×ÖÌå¡£±È½ÏÃÀ¹Û¡£
+é¦–å…ˆå®‰è£…YaHei.Consolaså­—ä½“ï¼Œä¸­æ–‡ä½¿ç”¨å¾®è½¯é›…é»‘ï¼Œè‹±æ–‡ä½¿ç”¨consolasã€‚åœ¨ä¸€äº›å­—ä½“è®¾ç½®é‡Œï¼Œéƒ½ä¼šä½¿ç”¨è¿™ä¸ªå­—ä½“ã€‚æ¯”è¾ƒç¾è§‚ã€‚
 
 ---
 
-1. markdown-themeable-pdf²¿·Ö
+1. markdown-themeable-pdféƒ¨åˆ†
 
-  ÏÂÔØmarkdown-themeable-pdf£¬ÓÃÀ´Í¨¹ımarkdownÉú³ÉpdfÎÄ¼ş¡£
-  Ìæ»»**C:\Users\µ±Ç°ÓÃ»§Ãû\.atom\markdown-themeable-pdf**Ä¿Â¼ÏÂµÄÎÄ¼ş
+  ä¸‹è½½markdown-themeable-pdfï¼Œç”¨æ¥é€šè¿‡markdownç”Ÿæˆpdfæ–‡ä»¶ã€‚
+  æ›¿æ¢**C:\Users\å½“å‰ç”¨æˆ·å\.atom\markdown-themeable-pdf**ç›®å½•ä¸‹çš„æ–‡ä»¶
 
-  > ÕâÒ»²¿·ÖÊÇ»ù´¡µÄ¸ñÊ½£¬ÕâÀïµÄstyles.css°üÀ¨ÁË´úÂë£¬±êÌâµÈÄÚÈİ¡£
-  µ«¶ÔÓÚ´úÂë¸ßÁÁÔòÔÚ²»Í¬µÄÎ»ÖÃ¡£
+  > è¿™ä¸€éƒ¨åˆ†æ˜¯åŸºç¡€çš„æ ¼å¼ï¼Œè¿™é‡Œçš„styles.cssåŒ…æ‹¬äº†ä»£ç ï¼Œæ ‡é¢˜ç­‰å†…å®¹ã€‚
+  ä½†å¯¹äºä»£ç é«˜äº®åˆ™åœ¨ä¸åŒçš„ä½ç½®ã€‚
 
-  - ÔÚC:\Users\hanyx\.atom\packages\markdown-themeable-pdf\cssÏÂ£¬°ÑÈ«¾ÖÎÄµµµÄ`document.css`Àï×öĞŞ¸Ä¡£Ö÷ÒªÊÇ¸ßÁÁ´úÂëµÄ±³¾°²¿·Ö¡£ÒÑ¾­½«ĞŞ¸ÄºÃµÄ¸ÃÎÄ¼ş·ÅÔÚµ±Ç°Ä¿Â¼ÏÂÁË¡£
-  -  ÔÚC:\Users\hanyx\.atom\packages\markdown-themeable-pdf\node_modules\highlight.js\stylesÄ¿Â¼ÏÂ£¬ÕÒµ½ĞèÒªµÄ´úÂë¸ßÁÁµÄcssÎÄ¼ş£¬È»ºó¸ü¸ÄÀïÃæµÄ±³¾°É«µÈ¡£±ÈÈçatom-one-light.css¡£½«ÀïÃæµÄ`.hljs`¸Ä³É£º
+  - åœ¨C:\Users\hanyx\.atom\packages\markdown-themeable-pdf\cssä¸‹ï¼ŒæŠŠå…¨å±€æ–‡æ¡£çš„`document.css`é‡Œåšä¿®æ”¹ã€‚ä¸»è¦æ˜¯é«˜äº®ä»£ç çš„èƒŒæ™¯éƒ¨åˆ†ã€‚å·²ç»å°†ä¿®æ”¹å¥½çš„è¯¥æ–‡ä»¶æ”¾åœ¨å½“å‰ç›®å½•ä¸‹äº†ã€‚
+  -  åœ¨C:\Users\hanyx\.atom\packages\markdown-themeable-pdf\node_modules\highlight.js\stylesç›®å½•ä¸‹ï¼Œæ‰¾åˆ°éœ€è¦çš„ä»£ç é«˜äº®çš„cssæ–‡ä»¶ï¼Œç„¶åæ›´æ”¹é‡Œé¢çš„èƒŒæ™¯è‰²ç­‰ã€‚æ¯”å¦‚atom-one-light.cssã€‚å°†é‡Œé¢çš„`.hljs`æ”¹æˆï¼š
   ```css
   .hljs {
     display: block;
@@ -25,8 +25,8 @@
     background: #e8e8e8;
   }
   ```
-  ÕâÀïÒ²·ÅÖÃÁË`github-gist.css`ºÍ`atom-one-light.css`Á½¸ö¸ßÁÁÖ÷Ìâ
+  è¿™é‡Œä¹Ÿæ”¾ç½®äº†`github-gist.css`å’Œ`atom-one-light.css`ä¸¤ä¸ªé«˜äº®ä¸»é¢˜
 
-2. styles.less²¿·Ö
+2. styles.lesséƒ¨åˆ†
 
-  Ìæ»»`C:\Users\hanyx\.atom`Ä¿Â¼ÏÂµÄ`style.less`£¬ÓÃÀ´Ö¸¶¨ÔÚatomÀïgithub markdown previewµÄÔ¤ÀÀ
+  æ›¿æ¢`C:\Users\hanyx\.atom`ç›®å½•ä¸‹çš„`style.less`ï¼Œç”¨æ¥æŒ‡å®šåœ¨atomé‡Œgithub markdown previewçš„é¢„è§ˆ

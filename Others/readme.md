@@ -18,6 +18,8 @@ C:\Users\你的用户名\.atom\
 
 ## 3. 使用markdown-themeable-pdf这个package
 
+pdf输出样例: [readme.pdf](./readme.pdf)
+
 首先在atom中安装这个package。
 
 把路径:
@@ -42,7 +44,7 @@ C:\Users\你的用户名\.atom\packages\markdown-themeable-pdf\css
 C:\Users\你的用户名\.atom\packages\markdown-themeable-pdf\node_modules\highlight.js\styles
 ```
 
-这里存放了各种不同的代码高亮样式, 我这里给出了两个常用主题`github-gist.css`和`atom-one-light.css`的样式修改。把我改过的这两个文件放到这里即可。
+这里存放了各种不同的代码高亮样式, 我这里给出了两个常用主题`github-gist.css`和`atom-one-light.css`的样式修改。把我改过的这两个文件放到这里即可。个人感觉github样式里代码块太浅了, 所以这里改的比较深. 具体颜色可以自行设置.
 
 最后, 关于页眉和页脚的设置, 目录同样在:
 
@@ -51,3 +53,5 @@ C:\Users\你的用户名\.atom\packages\markdown-themeable-pdf\css
 ```
 
 自己更改`footer.js`或者`header.js`即可。
+
+全部弄好后要重启atom.

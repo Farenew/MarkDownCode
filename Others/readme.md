@@ -1,32 +1,53 @@
-# atom中自己使用的一些格式
+# atom中使用github风格的markdown
 
----
+> 实现了github风格的markdown预览与PDF输出, PDF输出使用了markdown-themeable-pdf这个package
 
-首先安装YaHei.Consolas字体，中文使用微软雅黑，英文使用consolas。在一些字体设置里，都会使用这个字体。比较美观。
+## 1. 字体
 
----
+首先安装YaHei.Consolas字体，中文使用微软雅黑，英文使用consolas。字体显示效果非常好, 十分推荐。
 
-1. markdown-themeable-pdf部分
+## 2. github风格的markdown预览
 
-  下载markdown-themeable-pdf，用来通过markdown生成pdf文件。
-  替换**C:\Users\当前用户名\.atom\markdown-themeable-pdf**目录下的文件
+把`styles.less`这个文件复制到用户的atom配置目录下, 路径如下:
 
-  > 这一部分是基础的格式，这里的styles.css包括了代码，标题等内容。
-  但对于代码高亮则在不同的位置。
+```
+C:\Users\你的用户名\.atom\
+```
 
-  - 在C:\Users\hanyx\.atom\packages\markdown-themeable-pdf\css下，把全局文档的`document.css`里做修改。主要是高亮代码的背景部分。已经将修改好的该文件放在当前目录下了。
-  -  在C:\Users\hanyx\.atom\packages\markdown-themeable-pdf\node_modules\highlight.js\styles目录下，找到需要的代码高亮的css文件，然后更改里面的背景色等。比如atom-one-light.css。将里面的`.hljs`改成：
-  ```css
-  .hljs {
-    display: block;
-    overflow-x: auto;
-    padding: 0.5em;
-    color: #383a42;
-    background: #e8e8e8;
-  }
-  ```
-  这里也放置了`github-gist.css`和`atom-one-light.css`两个高亮主题
+这样在atom中写的markdown, 预览(ctrl+shift+m)的样式就是github的markdown样式了。
 
-2. styles.less部分
+## 3. 使用markdown-themeable-pdf这个package
 
-  替换`C:\Users\hanyx\.atom`目录下的`style.less`，用来指定在atom里github markdown preview的预览
+首先在atom中安装这个package。
+
+把路径:
+
+```
+C:\Users\你的用户名\.atom\markdown-themeable-pdf\
+```
+
+里的`styles.css`用我给出的文件替换。
+
+但是代码部分显示还是不好看, 打开这个目录:
+
+```
+C:\Users\你的用户名\.atom\packages\markdown-themeable-pdf\css
+```
+
+把里面的`document.css`用我给的替换掉, 这里改掉了原来的代码部分的背景色。
+
+此外, 打开:
+
+```
+C:\Users\你的用户名\.atom\packages\markdown-themeable-pdf\node_modules\highlight.js\styles
+```
+
+这里存放了各种不同的代码高亮样式, 我这里给出了两个常用主题`github-gist.css`和`atom-one-light.css`的样式修改。把我改过的这两个文件放到这里即可。
+
+最后, 关于页眉和页脚的设置, 目录同样在:
+
+```
+C:\Users\你的用户名\.atom\packages\markdown-themeable-pdf\css
+```
+
+自己更改`footer.js`或者`header.js`即可。
